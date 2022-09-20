@@ -1,10 +1,10 @@
 '''Game Guess the number
-Computer memorizes and guesses itself'''
+Computer sets and guesses itself (in less than 20 attempts)'''
 
 from itertools import count
 import numpy as np
 
-def random_predict(number:int=1) -> int:
+def precise_predict(number:int=np.random.randint(1, 101)) -> int:
     """ Randomly guessing the number
 
     Args:
@@ -13,17 +13,26 @@ def random_predict(number:int=1) -> int:
     Returns:
         int: Number of tries
     """
+    
     count = 0
-    
-    while True:
+    minimum = 1
+    maximum = 100
+    medium = round((minimum+maximum) // 2)
+        
+    while number != medium:
         count+=1
-        predict_number = np.random.randint(1, 101) # guessed number
-        if number == predict_number:
-            break # leave the cycle if guess is correct
-    
+        medium = round((minimum+maximum) // 2)
+        if number > medium:
+            minimum = medium
+        elif number < medium:
+            maximum = medium
+        else:
+            break
+            
+    print(f'The set number was {number}. It was guessed in {count} attempts')
     return(count)
 
-def score_game(random_predict) -> int:
+def score_game(precise_predict) -> int:
     """ The average number of tries until success (1000 attempts)
 
     Args:
@@ -37,7 +46,7 @@ def score_game(random_predict) -> int:
     random_array = np.random.randint(1, 101, size=(1000)) # guessed the list of numbers
     
     for number in random_array:
-        count_ls.append(random_predict(number))
+        count_ls.append(precise_predict(number))
     
     score = int(np.mean(count_ls))
     print(f'Your algorithm guesses the number in average within {score} tries')
@@ -45,4 +54,7 @@ def score_game(random_predict) -> int:
         
 if __name__ == '__main__':
     # RUN
-    score_game(random_predict)
+    score_game(precise_predict)
+    
+print(precise_predict)
+print(score_game)
