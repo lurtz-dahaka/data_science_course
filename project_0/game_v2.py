@@ -45,11 +45,12 @@ def score_game(precise_predict) -> int:
     random_array = np.random.randint(1, 101, size=(1000)) # guessed the list of numbers
     
     for number in random_array:
-        count_ls.append(precise_predict())
+        # for each number we will add in the list a number of attempts to guess it right
+        count_ls.append(precise_predict()) 
     
-    score = int(np.mean(count_ls))
+    score = int(np.mean(count_ls)) # an avearage value from all numbers from the list
     print(f'Your algorithm guesses the number in average within {score} tries')
-    return(score)
+    return(score) 
 
 # RUN        
 if __name__ == '__main__':
