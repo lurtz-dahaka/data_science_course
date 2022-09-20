@@ -1,7 +1,6 @@
 '''Game Guess the number
 Computer sets and guesses itself (in less than 20 attempts)'''
 
-from itertools import count
 import numpy as np
 
 def precise_predict(number:int=np.random.randint(1, 101)) -> int:
@@ -20,16 +19,15 @@ def precise_predict(number:int=np.random.randint(1, 101)) -> int:
     medium = round((minimum+maximum) // 2)
         
     while number != medium:
-        count+=1
-        medium = round((minimum+maximum) // 2)
+        count+=1       
         if number > medium:
             minimum = medium
         elif number < medium:
             maximum = medium
         else:
             break
-            
-    print(f'The set number was {number}. It was guessed in {count} attempts')
+        medium = round((minimum+maximum) // 2)
+    
     return(count)
 
 def score_game(precise_predict) -> int:
@@ -52,9 +50,9 @@ def score_game(precise_predict) -> int:
     print(f'Your algorithm guesses the number in average within {score} tries')
     return(score)
         
-if __name__ == '__main__':
+# if __name__ == '__main__':
     # RUN
-    score_game(precise_predict)
+ #   score_game(precise_predict)
     
-print(precise_predict)
-print(score_game)
+print(score_game(precise_predict))
+
