@@ -20,7 +20,7 @@ To guess right the number set by computer in a minimum number of attempts
 
 
 ### What case are we solving?
-We need to write a program which gueesees right the number set by computer within a minimum number of attempts.
+We need to write a program which guesses right the number set by computer within a minimum number of attempts.
 
 **Competition terms:**
 - Computer sets the integer number from 0 to 100 and we need to guess it right. By "guessing it right" it is meant that we need to write a program which guesses the number correctly.
