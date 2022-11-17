@@ -1,18 +1,23 @@
 # Проект №1. Анализ резюме из HeadHunter
-Данный проект является частью образовательной программы [SkillFactory](https://skillfactory.ru/data-scientist-pro) по подготовке Data Science специалистов.
+Данный проект выполняется в рамках образовательной программы [SkillFactory](https://skillfactory.ru/data-scientist-pro) по подготовке Data Science специалистов.
 
 ## Table of contents
-[1. Project description](https://github.com/lurtz-dahaka/data_science_course/blob/master/project_0/README.md#Project-description)
+[1. Цель проекта](https://github.com/lurtz-dahaka/data_science_course/tree/master/project_1#%D1%86%D0%B5%D0%BB%D1%8C-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0)
 
-[2. What case are we solving?](https://github.com/lurtz-dahaka/data_science_course/blob/master/project_0/README.md#What-case-are-we-solving)
+[2. Используемые методы](https://github.com/lurtz-dahaka/data_science_course/tree/master/project_1#%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D0%B5%D0%BC%D1%8B%D0%B5-%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B)
 
-[3. Short information about data](https://github.com/lurtz-dahaka/data_science_course/blob/master/project_0/README.md#Short-information-about-data)
+[3. Технологии](https://github.com/lurtz-dahaka/data_science_course/tree/master/project_1#%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8)
 
-[4. Work stages within the project](https://github.com/lurtz-dahaka/data_science_course/blob/master/project_0/README.md#Work-stages-within-the-project)
+[4. Описание проекта](https://github.com/lurtz-dahaka/data_science_course/tree/master/project_1#%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0)
 
-[5. Result](https://github.com/lurtz-dahaka/data_science_course/blob/master/project_0/README.md#Result)
+[5. Начало работы](https://github.com/lurtz-dahaka/data_science_course/tree/master/project_1#%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D0%BE-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B)
 
-[6. Conclusion](https://github.com/lurtz-dahaka/data_science_course/blob/master/project_0/README.md#Conclusion)
+[6. Разведывательный анализ](https://github.com/lurtz-dahaka/data_science_course/tree/master/project_1#%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D0%B4%D1%8B%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7)
+
+[7. Результаты](https://github.com/lurtz-dahaka/data_science_course/tree/master/project_1#%D1%80%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82%D1%8B)
+
+[8. Заключение](https://github.com/lurtz-dahaka/data_science_course/tree/master/project_1#%D0%B7%D0%B0%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5)
+
 
 #### -- Статус проекта: [Завершен]
 
@@ -24,9 +29,9 @@
 * очистка данных
 
 ### Используемые методы
-* Визуализация данных
-* Метод Z-отклонений
-* Метод Тьюки
+* визуализация данных
+* метод Z-отклонений
+* метод Тьюки
 
 ### Технологии
 * Python
@@ -38,12 +43,16 @@
 
 Проблематика: часть соискателей не указывает желаемую заработную плату, когда составляет своё резюме.
 
+:arrow_up:[к оглавлению](https://github.com/lurtz-dahaka/data_science_course/tree/master/project_1#table-of-contents)
 
 ## Начало работы
 
 1. Исходный датасет можно скачать по [ссылке](https://drive.google.com/file/d/1IerAlGXvT7fCf3b7KnjVMS3HEB5y9xr1/view?usp=sharing).
-2. Все манипуляции с данными проводятся в [Jupyter Notebook](https://github.com/lurtz-dahaka/data_science_course/blob/master/project_1/Project-1.ipynb).
-3. Преобразованный датасет также можно скачать по [ссылке](https://drive.google.com/file/d/1DFJh86ViQgetisvCsxCgXBgmvjpEuGLg/view?usp=sharing).
+2. Требования к версиям библиотек и расширениям представлены [здесь](https://github.com/lurtz-dahaka/data_science_course/blob/master/project_1/requirements.txt).
+3. Все манипуляции с данными проводятся в [Jupyter Notebook](https://github.com/lurtz-dahaka/data_science_course/blob/master/project_1/Project-1.ipynb).
+4. Преобразованный датасет также можно скачать по [ссылке](https://drive.google.com/file/d/1DFJh86ViQgetisvCsxCgXBgmvjpEuGLg/view?usp=sharing).
+
+:arrow_up:[к оглавлению](https://github.com/lurtz-dahaka/data_science_course/tree/master/project_1#table-of-contents)
 
 ## Разведывательный анализ
 
@@ -124,12 +133,26 @@ $$12*v - (x + 168) < 0,$$
 * *Распределение в обычном масштабе напоминает логнормальное. Заментна существенная правосторонняя ассиметрия.*
 * *Распределение в логарифмическом масштабе имеет вид слегка перекошенного нормального. Также распределение имеет правостороннюю ассиметрию.*
 
- ### Результаты
- The task was performed successfully. The initial target was 20 attempts in average, however, the created program allowed to decrease the average number of attempts down to 6. 
+:arrow_up:[к оглавлению](https://github.com/lurtz-dahaka/data_science_course/tree/master/project_1#table-of-contents)
 
- :arrow_up:[к оглавлению](https://github.com/lurtz-dahaka/data_science_course/blob/master/project_0/README.md#Table-of-contents)
+ ### Результаты
+ В рамках данного проекта удалось:
+ * познакомиться с данными и исследовать их структуру
+ * понять, как устроены признаки в данных и какие типы они имеют
+ * преобразовать данные в подходящий для анализа вид
+ * выявить связи между признаками, выявить закономерности, определить распределение признаков, найти аномалии и дефекты данных
+ * очистить данные от выбросов и дефектов
+ * подготовить данные и выделить ряд ключевых факторов для построения модели
+
+
+ :arrow_up:[к оглавлению](https://github.com/lurtz-dahaka/data_science_course/tree/master/project_1#table-of-contents)
 
  ### Заключение
-The project was extremely beneficial for learning new Python, IDE and GitHub skills. 
+Данный проект позволил применить на практике основные навыки в работе с данными:
+* манипуляции с датасетом с помощью Pandas
+* для преобразования данных использовались стандартные и lambda функции Python, а также библиотека NumPy
+* для построения диаграмм и графиков использовались библиотеки Matplotlib, Seaborn и Plotly
+* документирование наблюдений производилось в Jupyter Notebook и Markdown
+* презентация проекта осуществлена на GitHub 
 
-:arrow_up:[to the table of contents](https://github.com/lurtz-dahaka/data_science_course/blob/master/project_0/README.md#Table-of-contents)
+:arrow_up:[к оглавлению](https://github.com/lurtz-dahaka/data_science_course/tree/master/project_1#table-of-contents)
