@@ -5,4 +5,4 @@ From the [Skillfactory Data Science cource](https://skillfactory.ru/data-scienti
 
 * [Project 0. Game: Guess the number](https://github.com/lurtz-dahaka/data_science_course/tree/master/project_0)
 * [Project 1. Analysis of HH.ru job vacancies](https://github.com/lurtz-dahaka/data_science_course/tree/master/project_1)
-* [Project 2. ____________________]
+* [Project 2. SQL analysis of HH.ru job vacancies](https://github.com/lurtz-dahaka/data_science_course/tree/master/project_2)
