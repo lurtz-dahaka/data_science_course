@@ -20,6 +20,7 @@ chardet==4.0.0
 click==8.0.3
 click-plugins==1.1.1
 cligj==0.7.2
+cloudpickle==2.2.1
 clustergram==0.7.0
 cmaes==0.9.1
 colorama==0.4.4
@@ -74,6 +75,7 @@ google-auth-httplib2==0.1.0
 greenlet==1.1.2
 htmlmin==0.1.12
 httplib2==0.20.2
+hyperopt==0.2.7
 idna==3.3
 ImageHash==4.3.1
 imbalanced-learn==0.10.1
@@ -156,6 +158,7 @@ psutil==5.9.2
 psycopg2-binary==2.9.5
 ptyprocess==0.7.0
 pure-eval==0.2.2
+py4j==0.10.9.7
 pyasn1==0.4.8
 pyasn1-modules==0.2.1
 pycairo==1.20.1
@@ -180,7 +183,7 @@ pyrsistent==0.18.1
 pytest==7.2.1
 pytest-cov==4.0.0
 pytest-mock==3.10.0
-python-apt==2.4.0
+python-apt==2.4.0+ubuntu1
 python-dateutil==2.8.2
 python-debian===0.1.43ubuntu1
 pytz==2022.1
@@ -227,7 +230,7 @@ tqdm==4.64.1
 traitlets==5.4.0
 typeguard==2.13.3
 typing_extensions==4.4.0
-ubuntu-advantage-tools==27.12
+ubuntu-advantage-tools==8001
 ubuntu-drivers-common==0.0.0
 ufw==0.36.1
 unattended-upgrades==0.1
