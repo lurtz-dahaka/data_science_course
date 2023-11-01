@@ -1,5 +1,6 @@
 login_password.txt
 credentials.txt
+
 **/__pycache__/
 
 # Byte-compiled / optimized / DLL files
